@@ -1,0 +1,3 @@
+import type {Metadata} from 'next';import './globals.css';import {Header,Footer,WhatsAppFloat} from '@/components/site';
+export const metadata:Metadata={title:{default:'SchoolRight | A Clearer Way to Run Your School',template:'%s | SchoolRight'},description:'Explore SchoolRight school management software for student records, administration, academics and more. Talk to our team on WhatsApp to request a demo.',openGraph:{title:'SchoolRight — School Management Made Clearer',description:'Explore SchoolRight and request a walkthrough for your school.',type:'website'}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><Header/><main>{children}</main><Footer/><WhatsAppFloat/></body></html>}
