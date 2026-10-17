@@ -29,6 +29,8 @@ Visit http://localhost:3000. To check production compilation: `npm run build`.
 
 ## Important before publication
 
+- Set `NEXT_PUBLIC_SCHOOLRIGHT_WEBSITE_URL` to the canonical production URL (for example, `https://www.example.com`) in each deployment environment. It powers canonical links, sitemap entries and absolute Open Graph metadata.
+
 1. Verify every feature claim and replace placeholder images with approved screenshots.
 2. Confirm official logo asset is the preferred variant. Current asset is from the prior generated app-icon concept.
 3. Add verified pricing, testimonials and measurable outcomes only when supported by evidence.
